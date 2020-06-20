@@ -1,0 +1,8 @@
+version: '2'
+services: 
+  flaskblog-demo:
+    image: flaskblog:v1.0
+    volumes:
+      - /home/ubuntu/FlaskBlog:/usr/src/flaskblog
+    ports:
+      - 0.0.0.0:5000:5000
