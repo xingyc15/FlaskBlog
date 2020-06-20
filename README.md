@@ -16,7 +16,7 @@
 
       python run.py
 
-Visit http://localhost:5000
+Visit http://$(localhost):5000
 
 ---
 
@@ -48,7 +48,7 @@ Enter the container by shell
 
     docker exec -it $(container_name) /bin/bash
 
-Visit http://localhost:5000 or what you specified in $(localhost port)
+Visit http://$(aws_server_ip_address):5000 or what you specified in $(localhost port)
 
 ---
 
