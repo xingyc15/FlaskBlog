@@ -1,7 +1,5 @@
 # FlaskBlog
 
----
-
 ## Tips
 
 - host='0.0.0.0' : defined in main function. Used for docker port mapping
